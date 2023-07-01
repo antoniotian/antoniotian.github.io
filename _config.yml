@@ -12,7 +12,7 @@ github_repo: "https://github.com/antoniotian/antoniotian.github.io.git"  # Code 
 
 # Sidebar settings
 sidebar: true  # whether or not using Sidebar.
-sidebar-about-description: "一生只爱一只猫"
+#sidebar-about-description: "一生只爱一只猫"  # The text will show bellow the avatar
 sidebar-avatar: /img/avatar-me.jpg  # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
