@@ -4,17 +4,15 @@ SEOTitle: 翰宝的博客 | Antonio Tian
 header-img: img/post-bg-desk.jpg
 email: antonio.btian@gmial.com
 description: "一生只爱一只猫"
-keyword: "翰宝的博客, 田彬翰, Antonio, Antonio Tian, Antonio Tian Blog, antoniotian, Gaming, Apple, iOS, iPhone"
-url: "http://qiubaiying.github.io"          # your host, for absolute URL
-baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/qiubaiying/qiubaiying.github.io.git" # you code repository
+keyword: "翰宝的博客, 田彬翰, antoniotian, Antonio, Antonio Tian, Antonio Tian Blog, Gaming, Apple, iOS, iPhone"
+url: "http://antoniotian.github.io"  # Absolute URL
+baseurl: ""  # for example, '/blog' if your blog hosted on 'host/blog'
+github_repo: "https://github.com/antoniotian/antoniotian.github.io.git"  # Code Repository
 
 # Sidebar settings
-sidebar: true                           # whether or not using Sidebar.
+sidebar: true  # whether or not using Sidebar.
 sidebar-about-description: "Goals determine what you going to be!"
-sidebar-avatar: /img/about-BY-gentle.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
-
-
+sidebar-avatar: /img/about-BY-gentle.jpg  # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # SNS settings
 RSS: false
