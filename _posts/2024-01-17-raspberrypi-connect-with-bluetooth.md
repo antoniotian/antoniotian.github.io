@@ -28,5 +28,17 @@ sudo apt upgrade
 ```
 Install Bluetooth-related packages
 ```
-sudo apt install bluetooth bluez blueman
+sudo apt-get install bluetooth bluez rfcomm
 ```
+
+### Configure the Bluetooth Service
+Use the `bluetoothctl` utility to configure Bluetooth so that the Raspberry Pi is visible to and can pair with other Bluetooth devices. After entering the `bluetoothctl` command line interface, you can use the following commands:
+```
+sudo bluetoothctl 
+power on 
+agent on 
+default-agent 
+discoverable on 
+pairable on
+```
+`power on`: This is necessary because the Bluetooth hardware needs to be powered on to scan for, connect to, or pair with other Bluetooth devices. 
