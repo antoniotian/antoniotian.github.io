@@ -34,10 +34,10 @@ The Raspberry Pi is a very popular device for developers and electronics enthusi
 | GPIO              | 40PIN                                          | 40PIN                                        | 40PIN                                        | 40PIN                                         |
 | Dimension         | 85x56x17 mm                                    | 85x56x17 mm                                  | 85x56x17 mm                                  | 85x56x17 mm                                   |
 
-### 树莓派4B PIN 脚定义
+### Raspberry Pi 4B PIN Definition
 ![Raspberry Pi PIN](/img/in-post-imag/post-inner-raspberry-pi-pin.png)
-> Raspberry Pi 的 PIN 定义在官方网站中可以查阅:[Raspberry Pi 官方网站](https://www.raspberrypi.com/documentation/computers/raspberry-pi.html)<br>
-> 另外工具网站：[Raspberry Pi Pinout](https://pinout.xyz) 中对 PIN 脚有详细的说明
+> The Raspberry Pi PIN definitions are available on the official website: [Raspberry Pi PIN Definitions](https://www.raspberrypi.com/documentation/computers/raspberry-pi.html)<br>
+> Additional Tools Website：[Raspberry Pi Pinout](https://pinout.xyz) 
 
 # Raspberry Pi OS 系统写入
 ---
