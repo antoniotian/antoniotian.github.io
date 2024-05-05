@@ -41,9 +41,7 @@ default-agent
 discoverable on 
 pairable on
 ```
-`power on`: Bluetooth hardware will be powered on when the system started up. 
-
-`agent on`: This command enables the agent that handles pairing requests. The agent is responsible for automatically responding to requests that would otherwise require user interaction, such as entering a PIN. Turning the agent on streamlines the pairing process by managing these interactions programmatically.
+`power on`: Bluetooth hardware will be powered on when the system started up. <br>`agent on`: This command enables the agent that handles pairing requests. The agent is responsible for automatically responding to requests that would otherwise require user interaction, such as entering a PIN. Turning the agent on streamlines the pairing process by managing these interactions programmatically.
 
 `default-agent`: Sets the currently active agent as the default agent. This means that this agent will handle all future pairing and trust requests.
 
