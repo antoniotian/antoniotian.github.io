@@ -11,29 +11,28 @@ tags:
   - Raspberry Pi Guidebook
 ---
 
-> Raspberry Pi 由英国的 Raspberry Pi Foundation 开发，是一款高性能单板计算机。其尺寸小，成本低，使它迅速成为DIY爱好者、制造者、电子爱好者以及专业开发者中非常受欢迎的嵌入式设备。
+> Developed by the UK-based Raspberry Pi Foundation, the Raspberry Pi is a high-performance single-board computer. Its small size and low cost have quickly made it a very popular embedded device among DIYers, makers, electronics enthusiasts, and professional developers.
 
-# Raspberry Pi 的硬件配置
+# Hardware Information of Raspberry Pi
 ---
-Raspberry Pi 因其可扩展性、功能性和成本效益而成为一个非常受开发者和电子爱好者欢迎的设备，不仅适用于初学者和学生，也适用于专业人士。
-### 树莓派型号对比
+The Raspberry Pi is a very popular device for developers and electronics enthusiasts due to its scalability, functionality and cost-effectiveness, not only for beginners and students but also for professionals.
+### Raspberry Pi Model Comparison
 
-
-|       | Raspberry Pi 4B               | Raspberry Pi 3B+               | Raspberry Pi 3B                | Raspberry Pi 2B                |
-|-------|-------------------------------|--------------------------------|--------------------------------|--------------------------------|
-| 发布时间  | 2019/06/24                    | 2018/03/04                     | 2018/03/04                     | 2018/03/04                     |
-| SoC   | BCM2711                       | BCM2837B0                      | BCM2837                        | BCM2836                        |
-| CPU   | ARM Cortex-A72 1.5GHz 64位四核   | ARM Cortex-A53 1.4GHz 64位四核    | ARM Cortex-A53 1.2GHz 64位四核    | ARM Cortex-A7 900MHz 64位四核     |
-| 功耗    | 600mA ~ 3000mA                | 500mA ~ 2500mA                 | 400mA ~ 2500mA                 | 350mA ~ 1800mA                 |
-| Wi-Fi | 2.4GHz/5GHz                   | 2.4GHz/5GHz                    | 2.4GHz                         | N/A                            |
-| 蓝牙    | 5.0 BLE                       | 4.2 BLE                        | 蓝牙                             | 蓝牙                             |
-| RAM   | 1/2/4/8 GB                    | 1 GB                           | 1 GB                           | 1 GB                           |
-| USB   | USB 3.0x2、USB 2.0x2           | USB 2.0x4                      | USB 2.0x4                      | USB 2.0X4                      |
-| 视频接口  | micro HDMI 接口x2 最大分辨率 4K 60Hz | HDMI (1.3,1.4) 最大分辨率 1920x1200 | HDMI (1.3,1.4) 最大分辨率 1920x1200 | HDMI (1.3,1.4) 最大分辨率 1920x1200 |
-| 音频接口  | 3.5mm插孔 micro HDMI            | 3.5mm插孔 HDMI(1.3,1.4)          | 3.5mm插孔 HDMI(1.3,1.4)          | 3.5mm插孔 HDMI(1.3,1.4)          |
-| 电源    | USB Type-C 5V                 | MicroUSB 5V                    | MicroUSB 5V                    | MicroUSB 5V                    |
-| GPIO  | 40PIN                         | 40PIN                          | 40PIN                          | 40PIN                          |
-| 尺寸    | 85x56x17 mm                   | 85x56x17 mm                    | 85x56x17 mm                    | 85x56x17 mm                    |
+|                   | Raspberry Pi 4B                                | Raspberry Pi 3B+                             | Raspberry Pi 3B                              | Raspberry Pi 2B                               |
+| ----------------- | ---------------------------------------------- | -------------------------------------------- | -------------------------------------------- | --------------------------------------------- |
+| Release Time      | 2019/06/24                                     | 2018/03/04                                   | 2018/03/04                                   | 2018/03/04                                    |
+| SoC               | BCM2711                                        | BCM2837B0                                    | BCM2837                                      | BCM2836                                       |
+| CPU               | ARM Cortex-A72 1.5GHz 64bit Quad-Core          | ARM Cortex-A53 1.4GHz 64bit Quad-Core        | ARM Cortex-A53 1.2GHz 64bit Quad-Core        | ARM Cortex-A7 900MHz 64bit Quad-Core          |
+| Power Consumption | 600mA ~ 3000mA                                 | 500mA ~ 2500mA                               | 400mA ~ 2500mA                               | 350mA ~ 1800mA                                |
+| Wi-Fi             | 2.4GHz/5GHz                                    | 2.4GHz/5GHz                                  | 2.4GHz                                       | N/A                                           |
+| Bluetooth         | 5.0 BLE                                        | 4.2 BLE                                      | Bluetooth                                    | Bluetooth                                     |
+| RAM               | 1/2/4/8 GB                                     | 1 GB                                         | 1 GB                                         | 1 GB                                          |
+| USB               | USB 3.0x2、USB 2.0x2                            | USB 2.0x4                                    | USB 2.0x4                                    | USB 2.0X4                                     |
+| Video Interface   | micro HDMI Port x2; Maximum resolution 4K 60Hz | HDMI (1.3,1.4); Maximum resolution 1920x1200 | HDMI (1.3,1.4); Maximum resolution 1920x1200 | HDMI (1.3,1.4) ; Maximum resolution 1920x1200 |
+| Audio Interface   | 3.5mm micro HDMI                               | 3.5mm HDMI(1.3,1.4)                          | 3.5mm HDMI(1.3,1.4)                          | 3.5mm HDMI(1.3,1.4)                           |
+| Power             | USB Type-C 5V                                  | MicroUSB 5V                                  | MicroUSB 5V                                  | MicroUSB 5V                                   |
+| GPIO              | 40PIN                                          | 40PIN                                        | 40PIN                                        | 40PIN                                         |
+| Dimension         | 85x56x17 mm                                    | 85x56x17 mm                                  | 85x56x17 mm                                  | 85x56x17 mm                                   |
 
 ### 树莓派4B PIN 脚定义
 ![Raspberry Pi PIN](/img/in-post-imag/post-inner-raspberry-pi-pin.png)
