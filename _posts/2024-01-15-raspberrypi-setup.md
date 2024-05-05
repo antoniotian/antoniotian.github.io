@@ -59,9 +59,9 @@ Here is an example of advance system setup，click **「EDIT SETTINGS」**
 - **Set Wi-Fi：**The Wi-Fi list will not be displayed here, you need to fill in the SSDN of the Wi-Fi directly (i.e. the name that is displayed in the Wi-Fi list)
 - **Language and time zone settings**
 
-After completing the above settings, click **"SERVICES "**, check **"Enable SSH service "**, and choose to log in with a password. The password here is the user name and password set earlier.
+After completing the above settings, click **「SERVICES 」**, check **「Enable SSH service 」**, and choose to log in with a password. The password here is the user name and password set earlier.
 ![系统写入_04](/img/in-post-imag/post-inner-raspberry-pi-imager-04.png)
-Click **"Save "** to start writing to the system.
+Click **「Save 」** to start writing to the system.
 ![系统写入_05](/img/in-post-imag/post-inner-raspberry-pi-imager-05.png)
 After burning, insert the SD card into the Raspberry Pi directly. After power on, the system will be initialised automatically.<br>
 If the system is configured ahead of time, it will go straight to the desktop.<br>
