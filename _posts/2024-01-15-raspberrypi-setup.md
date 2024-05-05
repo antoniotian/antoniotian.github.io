@@ -1,15 +1,14 @@
 ---
 layout: post
-title: 玩转 Raspberry Pi (树莓派)
-subtitle: Raspberry Pi (树莓派) 基本使用手册
-author: 翰宝
+title: Playing Around with Raspberry Pi
+subtitle: Raspberry Pi Basic User's Manual
+author: Antoniotian (翰宝)
 header-img: img/post-bg-raspberrypi-setup.jpg
 header-mask: 0.4
 tags:
-  - 嵌入式系统
-  - RaspberryPi
-  - 资料
-  - 树莓派
+  - Embedded System
+  - Raspberry Pi
+  - Raspberry Pi Guidebook
 ---
 
 > Raspberry Pi 由英国的 Raspberry Pi Foundation 开发，是一款高性能单板计算机。其尺寸小，成本低，使它迅速成为DIY爱好者、制造者、电子爱好者以及专业开发者中非常受欢迎的嵌入式设备。
