@@ -2,9 +2,9 @@
 title: Antonio Blog
 SEOTitle: 翰宝的博客 | Antonio Blog
 header-img: img/home-bg.jpg
-email: antonio.btian@gmail.com
-description: "这里是 @Antonio_Btian-田彬翰 的个人博客，与你一起发现更大的世界 | 三个宝宝的爹"
-keyword: "田彬翰, 翰宝, Antonio_Btian, Tony-Btian"
+email: antonio.binhan@outlook.com
+description: "This is @antoniotian-田彬翰's personal blog, discovering a bigger world with you | Three Babies' Dads"
+keyword: "田彬翰, 翰宝, antoniotian, Tony-Btian"
 url: "https://tianbinhan.me" # your host, for absolute URL
 baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'
 
@@ -15,7 +15,7 @@ future: true
 RSS: false
 #weibo_username: antonio
 #zhihu_username: antonio
-github_username: Tony-Btian
+github_username: antoniotian
 twitter_username: Antonio_Btian
 facebook_username: Antonio Tian
 #linkedin_username:  firstname-lastname-idxxxx
@@ -59,7 +59,7 @@ kramdown:
       start_line: 1
 
 # Disqus settings
-disqus_username: Tony-Btian
+disqus_username: antoniotian
 
 # Netease settings
 netease_comment: false
@@ -70,12 +70,12 @@ netease_comment: false
 
 # Google Analytics
 ga_track_id: "G-86E7PRKTTP" # Format: UA-xxxxxx-xx
-ga_domain: tony-btian.github.io
+ga_domain: antoniotian.github.io
 
 # Sidebar settings
 sidebar: true # whether or not using Sidebar.
-sidebar-about-description: "三个宝宝的爹爹<br>写写代码，做做项目，看看产品<br>世界那么大，多玩玩多看看"
-sidebar-avatar: https://github.com/Tony-Btian.png # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-about-description: "Father of three babies. Writing code. Doing research and projects.<br>The world is so big, play more and see more!"
+sidebar-avatar: https://github.com/antoniotian.png # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # Featured Tags
 featured-tags: true # whether or not using Feature-Tags
@@ -91,7 +91,5 @@ page-mathjax: false
 # Friends
 friends:
   [
-    { title: "黄小喵"      , href: "http://google.com/" },
-    { title: "Pygmalion0" , href: "https://github.com/Pygmalion0" },
-    { title: "Tony"       , href: "https://google.com/" },
+    { title: "黄小喵", href: "http://google.com/" },
   ]
