@@ -48,10 +48,9 @@ The Raspberry Pi is a very popular device for developers and electronics enthusi
 | SD Card, SD Reader | Raspberry Pi System Image Tool：[Raspberry Pi Imager](https://www.raspberrypi.com/software/) |
 
 ### Image Burn
-将 SD 卡用读卡器连接电脑，打开树莓派写入工具，选择合适的 Raspberry Pi 型号和系统，以及 SD 存储卡。系统优先选择最近发布的 Raspberry Pi OS，一般会有推荐系统。Debian 的硬件支持更好，所以这里以 Debian 系统为例。
+Connect the SD card to the computer with a card reader, open the Raspberry Pi Image Tool. Select the appropriate Raspberry Pi model and system, as well as the SD memory card. Recommend the most recently released Raspberry Pi OS. Usually there will be a recommended system, Debian hardware support is better, so here we take Debian system as an example.
 ![系统写入_01](/img/in-post-imag/post-inner-raspberry-pi-imager-01.png)
-在执行烧录之前，可以选择提前对 Raspberry Pi OS 系统进行配置。
-也可以烧录完成后，进入系统再设置。
+You can choose to configure the Raspberry Pi OS system in advance before performing the burn-in. It is also possible to enter the system and set it up again after the burn is complete.
 ![系统写入_02](/img/in-post-imag/post-inner-raspberry-pi-imager-02.png)
 这里以提前进行系统设置为例，点击**「编辑设置」**
 ![系统写入_03](/img/in-post-imag/post-inner-raspberry-pi-imager-03.png)
