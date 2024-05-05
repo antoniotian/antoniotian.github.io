@@ -52,32 +52,32 @@ Connect the SD card to the computer with a card reader, open the Raspberry Pi Im
 ![系统写入_01](/img/in-post-imag/post-inner-raspberry-pi-imager-01.png)
 You can choose to configure the Raspberry Pi OS system in advance before performing the burn-in. It is also possible to enter the system and set it up again after the burn is complete.
 ![系统写入_02](/img/in-post-imag/post-inner-raspberry-pi-imager-02.png)
-这里以提前进行系统设置为例，点击**「编辑设置」**
+Here is an example of advance system setup，click **「EDIT SETTINGS」**
 ![系统写入_03](/img/in-post-imag/post-inner-raspberry-pi-imager-03.png)
-- **设置主机名称：**主机名称
-- **设置用户名和密码**
-- **配置 Wi-Fi：**这里不会显示 Wi-Fi 列表，需要直接填写 Wi-Fi 的 SSDN（即显示在Wi-Fi列表中的名字）
-- **语言和时区设置**
+- **Set hostname：**hostname
+- **Set username and password**
+- **Set Wi-Fi：**The Wi-Fi list will not be displayed here, you need to fill in the SSDN of the Wi-Fi directly (i.e. the name that is displayed in the Wi-Fi list)
+- **Language and time zone settings**
 
-完成上述设置之后，点击**「SERVICES」**，勾选**「开启SSH服务」**，并选择使用密码登陆。这里的密码就是前面设置的用户名和密码。
+After completing the above settings, click **"SERVICES "**, check **"Enable SSH service "**, and choose to log in with a password. The password here is the user name and password set earlier.
 ![系统写入_04](/img/in-post-imag/post-inner-raspberry-pi-imager-04.png)
-点击**「保存」**，开始写入系统。
+Click **"Save "** to start writing to the system.
 ![系统写入_05](/img/in-post-imag/post-inner-raspberry-pi-imager-05.png)
-烧录完成后，直接将 SD 卡插入 Raspberry Pi 即可。通电后，系统会自动初始化。<br>
-如果提前配置了系统，就会直接进入桌面。<br>
-如果没有提前设置，只需通过简单的系统引导配置，就可以进入桌面了。<br>
-有外界显示设备可以通过 HDMI 连接 Raspberry Pi 与外部显示设备。
-> **注意：** 每次系统烧录都会格式化 SD 卡，因此在烧录之前需要备份好 SD 卡中的数据
+After burning, insert the SD card into the Raspberry Pi directly. After power on, the system will be initialised automatically.<br>
+If the system is configured ahead of time, it will go straight to the desktop.<br>
+If you don't set it up ahead of time, you can access the desktop with a simple system boot configuration.<br>
+There are external display devices that can connect the Raspberry Pi to an external display device via HDMI.
+> **Note:** The SD card will be formatted each time the system is burned, so you need to back up the data on the SD card before burning.
 
-### 升级系统
-系统加载完成后，进入桌面。Raspberry Pi 桌面如下所示：
+### Updata System
+Once the system has finished loading, enter the desktop.The Raspberry Pi desktop is shown below:
 ![系统桌面](/img/in-post-imag/post-inner-raspberry-pi-desktop.png)
-系统安装完成的第一件事就是**升级系统**，打开终端，输入
+The first thing to do when the system installation is complete is to **Upgrade the system**, open the terminal and type in
 ```bash
 sudo apt-get update
 sudo apt-get upgrade
 ```
-> **注意：** 如果在升级的过程中弹出 (Y/N) 选择，输入 Y 后按回车即可。首次升级可能需要花费大量的时间，请耐心等待。
+> **Note:** If the (Y/N) selection pops up during the upgrade process, enter Y and press Enter. The first upgrade may take a significant amount of time, so please be patient.
 
 # 远程连接 Raspberry Pi
 ---
