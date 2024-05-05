@@ -39,18 +39,15 @@ The Raspberry Pi is a very popular device for developers and electronics enthusi
 > The Raspberry Pi PIN definitions are available on the official website: [Raspberry Pi PIN Definitions](https://www.raspberrypi.com/documentation/computers/raspberry-pi.html)<br>
 > Additional Tools Website：[Raspberry Pi Pinout](https://pinout.xyz) 
 
-# Raspberry Pi OS 系统写入
+# Raspberry Pi OS Image Burn
 ---
-### 准备工作
+### Preparation Work
 
+| Hardware           | Software                                                                                    |
+| ------------------ | ------------------------------------------------------------------------------------------- |
+| SD Card, SD Reader | Raspberry Pi System Image Tool：[Raspberry Pi Imager](https://www.raspberrypi.com/software/) |
 
-| 硬件        | 软件                                                                     |
-|-----------|------------------------------------------------------------------------|
-| SD 卡      | 树莓派系统写入工具：[Raspberry Pi Imager](https://www.raspberrypi.com/software/) |
-| SD 读卡器    |                                                                        |   
-
-
-### 系统写入
+### Image Burn
 将 SD 卡用读卡器连接电脑，打开树莓派写入工具，选择合适的 Raspberry Pi 型号和系统，以及 SD 存储卡。系统优先选择最近发布的 Raspberry Pi OS，一般会有推荐系统。Debian 的硬件支持更好，所以这里以 Debian 系统为例。
 ![系统写入_01](/img/in-post-imag/post-inner-raspberry-pi-imager-01.png)
 在执行烧录之前，可以选择提前对 Raspberry Pi OS 系统进行配置。
