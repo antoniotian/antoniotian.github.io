@@ -15,7 +15,10 @@ tags:
 
 # Bluetooth Access Setup
 ---
-To access the Raspberry Pi terminal over Bluetooth, you'll need to set up the Raspberry Pi so that it can accept connections via Bluetooth and provide terminal access. This involves several steps including installing necessary software, configuring the Bluetooth device, and setting up a secure connection. 
+To access the Raspberry Pi terminal over Bluetooth, you'll need to set up the Raspberry Pi so that it can accept connections via Bluetooth and provide terminal access. 
+This involves several steps including installing necessary software, configuring the Bluetooth device, and setting up a secure connection. 
+
+Connecting the Raspberry Pi via Bluetooth and accessing the terminal makes it easy to configure network connectivity in unfamiliar environments. Remote connection to run on-board software.
 ### Update the System and Install Bluetooth Utilities
 Update your Raspberry Pi system with terminal
 ```bash
@@ -78,4 +81,5 @@ You can connect to the Raspberry Pi's terminal after input your `user name` and 
 ![Terminal Example Display](/img/in-post-imag/post-inner-raspberry-pi-bluetooth-04.png)
 
 To disconnect, simply press `Ctrl-A` , then press `k`. Answer `y` to confirm. <br>
-This will kill the current screen session. You will be asked if you really want to quit the screen session. 
+This will kill the current screen session. You will be asked if you really want to quit the screen session.
+
