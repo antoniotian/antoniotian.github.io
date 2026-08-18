@@ -1,11 +1,13 @@
 <blockquote><p>Your time is limited, so don t waste it living someone else‘s life. <br>
 你的时间有限，所以别浪费生命过别人的生活。</p></blockquote>
 
-Hi，I'm Tony-Btian (翰宝), currently a graduate student at the University of Glasgow.
+Hey everyone, I’m what you’d call a “GPS personality” – I know the right way to go, but I always feel like taking the other route, and more often than not, I end up lost.
 
-As a student, my life is pretty simple: attending classes, studying, and sleeping 💤. In my free time, I like to tinker with electronics and smart home devices. To relax, I enjoy listening to music, reading books, and exploring new things.
+My day job is a programmer, and my side hustle is a food blogger. Put those two together, and you can probably guess that my life is packed with both high calories and high logic. I can fix a bug in five minutes, but I’ll happily spend five hours braising a pot of red‑braised pork.
 
-2024 is here, and during this time, the main content of my blog posts will be related to what I'm studying at school. If there are any mistakes or issues in the content I publish, please feel free to leave a comment~
+If I had to sum myself up in one sentence: I’m a foodie trying to change the world, one line of code and one spatula flip at a time.
+
+Great to meet you all – if you ever have questions about food or computer trouble, I’m your guy.
 
 
 ##### Acknowledgements

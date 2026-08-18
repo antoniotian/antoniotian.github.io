@@ -2,7 +2,7 @@
 layout: post
 title: Connect Raspberry Pi with Bluetooth
 subtitle: Use Bluetooth to get access terminal of Raspberry Pi
-author: Antoniotian (翰宝)
+author: Antonio
 header-img: img/post-bg-raspberrypiconnectwithbt.jpeg
 header-mask: 0.4
 tags:
