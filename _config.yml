@@ -1,10 +1,10 @@
 # Site settings
 title: Antonio's Blog
-SEOTitle: 翰宝的博客 | Antonio's Blog
+SEOTitle: Antonio 的博客 | Antonio's Blog
 header-img: img/home-bg.jpg
 email: antonio.binhan@outlook.com
-description: "This is @antoniotian-田彬翰's personal blog, discovering a bigger world with you | Three Babies' Dads"
-keyword: "田彬翰, 翰宝, antoniotian, Tony-Btian"
+description: "This is @antoniotian's personal blog, discovering a bigger world with you | Three Babies' Dads"
+keyword: "antoniotian, Tony-Btian"
 url: "https://tianbinhan.me" # your host, for absolute URL
 baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'
 
@@ -91,5 +91,5 @@ page-mathjax: false
 # Friends
 friends:
   [
-    { title: "黄小喵", href: "http://google.com/" },
+    { title: "Miss Meow", href: "http://google.com/" },
   ]
